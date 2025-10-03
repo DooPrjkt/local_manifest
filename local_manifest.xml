@@ -8,7 +8,7 @@
  <remote name="lineage" fetch="https://github.com/LineageOS" />
  
  <!--Trees-->
- <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="Evolution-vic" />
+ <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="fifteen" />
  <project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="Sup" revision="fifteen" />
  <project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="Joker-V2" revision="fifteen" />
 
