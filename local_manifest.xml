@@ -7,7 +7,7 @@
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-bka" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="sixteen" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="sixteen" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="16" />
 
  <remove-project path="packages/modules/Connectivity" />
  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="NRanjan-17" revision="bka" />
