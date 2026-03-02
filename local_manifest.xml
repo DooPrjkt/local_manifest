@@ -2,15 +2,29 @@
 <manifest>
  <!--Remote-->
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
- <remote name="lineage" fetch="https://github.com/LineageOS" />
+ <remote name="mido-nxt" fetch="https://github.com/mido-nxt" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="mi-test" fetch="https://github.com/ximi-daisy-test" />
  
  <!--Trees-->
  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="NRanjan-17" revision="Evolution-bka" />
  <project path="vendor/xiaomi/mido" name="vendor_xiaomi_mido" remote="NRanjan-17" revision="sixteen" />
- <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="16" />
+ <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="sixteen" />
 
  <remove-project path="packages/modules/Connectivity" />
- <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="NRanjan-17" revision="bka" />
+ <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="mido-nxt" revision="lineage-23.2" />
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-23.1" />
+ <remove-project path="system/bpf" />
+ <project path="system/bpf" name="android_system_bpf" remote="mido-nxt" revision="lineage-23.2" />
+
+ <remove-project path="build/make" />
+ <project path="build/make" name="android_build" remote="mi-test" revision="lineage-23.2-tweaked" />
+
+ <remove-project path="hardware/interfaces" />
+ <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mi-test" revision="lineage-23.2-tweaked" />
+
+ <remove-project path="kernel/configs" />
+ <project path="kernel/configs" name="android_kernel_configs" remote="mi-test" revision="lineage-23.2-tweaked" />
+
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
 </manifest>
