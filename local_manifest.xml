@@ -33,8 +33,5 @@
  <remove-project path="kernel/configs" />
  <project path="kernel/configs" name="android_kernel_configs" remote="mi-test" revision="lineage-23.2-tweaked" clone-depth="1" />
 
- <remove-project path="system/netd" />
- <project path="system/netd" name="android_system_netd" remote="mi-test" revision="lineage-23.2-tweaked" clone-depth="1" />
-
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" clone-depth="1" />
 </manifest>
