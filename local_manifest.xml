@@ -38,6 +38,9 @@
 
  <remove-project path="hardware/qcom-caf/wlan" />
  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="LineageOS" revision="lineage-22.2-caf" clone-depth="1" />
+ 
+ <remove-project path="external/wpa_supplicant_8" />
+ <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="LineageOS" revision="lineage-22.2" clone-depth="1" />
 
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" clone-depth="1" />
 </manifest>
