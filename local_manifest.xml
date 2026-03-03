@@ -33,5 +33,11 @@
  <remove-project path="kernel/configs" />
  <project path="kernel/configs" name="android_kernel_configs" remote="mi-test" revision="lineage-23.2-tweaked" clone-depth="1" />
 
+ <remove-project path="hardware/qcom/wlan" />
+ <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="LineageOS" revision="lineage-22.2" clone-depth="1" />
+
+ <remove-project path="hardware/qcom-caf/wlan" />
+ <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="LineageOS" revision="lineage-22.2-caf" clone-depth="1" />
+
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" clone-depth="1" />
 </manifest>
