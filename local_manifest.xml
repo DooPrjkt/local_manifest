@@ -27,8 +27,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
- <remove-project path="hardware/interfaces" />
- <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mi-test" revision="lineage-23.2-tweaked" clone-depth="1" />
+ <!--<remove-project path="hardware/interfaces" />
+ <project path="hardware/interfaces" name="android_hardware_interfaces" remote="mi-test" revision="lineage-23.2-tweaked" clone-depth="1" />-->
 
  <remove-project path="kernel/configs" />
  <project path="kernel/configs" name="android_kernel_configs" remote="mi-test" revision="lineage-23.2-tweaked" clone-depth="1" />
