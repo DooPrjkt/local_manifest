@@ -5,6 +5,7 @@
  <remote name="Joker-V2" fetch="https://github.com/Joker-V2" />
  <remote name="Sup" fetch="https://github.com/SuperiorOS-Devices" />
  <remote name="lineage" fetch="https://github.com/LineageOS" />
+ <remote name="adi" fetch="https://github.com/adi8900" />
  
  <!--Trees-->
  <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="NRanjan-17" revision="16.2" clone-depth="1" />
@@ -13,6 +14,7 @@
 
 
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-23.2" clone-depth="1" />
+ <project path="hardware/dolby" name="hardware_dolby" remote="adi" revision="lunaris" clone-depth="1" />
 
  
 </manifest>
