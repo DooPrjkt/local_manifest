@@ -12,7 +12,7 @@
  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="NRanjan-17" revision="sixteen" clone-depth="1" />
 
  <remove-project path="packages/modules/Connectivity" />
- <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="mido-nxt" revision="bp2" clone-depth="1" />
+ <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="mido-nxt" revision="bq2" clone-depth="1" />
 
  <remove-project path="system/bpf" />
  <project path="system/bpf" name="android_system_bpf" remote="mido-nxt" revision="lineage-23.2" clone-depth="1" />
